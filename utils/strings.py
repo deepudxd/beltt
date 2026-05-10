@@ -16,5 +16,6 @@ Output: str
 """
 
 def reverse_words(text: str) -> str:
-    pass
-
+    words = text.split()
+    reversed_text = " ".join(words[::-1])
+    return reversed_text
